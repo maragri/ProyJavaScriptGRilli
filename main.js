@@ -9,7 +9,7 @@ function findeCompra (numeroA,numeroB,){
 }
     let precioProducto1 = parseInt (prompt ("Ingrese precio de 1er producto: "));
     let precioProducto2 = parseInt (prompt ("Ingrese precio de 2do producto: "));
-    let resultadoCompra = findeCompra(precioProducto1 , precioProducto2)
+    let resultadoCompra = findeCompra(precioProducto1 , precioProducto2);
     console.log (resultadoCompra);
     alert (nombreCliente + "el valor de su compra es: " + resultadoCompra);
     let mensaje = (nombreCliente + "Realizó una compra de" + resultadoCompra);
