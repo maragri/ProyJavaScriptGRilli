@@ -4,8 +4,8 @@ saludarCliente(nombreCliente);
 function saludarCliente(nombre) {
     alert("Bienvenidos a Supermercados Changuito "+ nombre)
  }
-function findeCompra (numeroA,nuemroB,){
-    return numeroA + nuemroB ;
+function findeCompra (numeroA,numeroB,){
+    return numeroA + numeroB ;
 }
     let precioProducto1 = parseInt (prompt ("Ingrese precio de 1er producto: "));
     let precioProducto2 = parseInt (prompt ("Ingrese precio de 2do producto: "));
